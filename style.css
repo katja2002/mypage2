@@ -1,4 +1,13 @@
 p{
     color:rgb(161, 18, 18);
-    font: size 500%;
+    font-size: 5vh;
+    text-align:center;
+    font-weight: bold;
 }
+
+#buchcover{
+    width:50vw;
+    border:210px solid pink;
+}
+
+body{background-color: blanchedalmond;}
