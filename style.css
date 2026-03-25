@@ -1,9 +1,18 @@
 p{
-    color:rgb(161, 18, 18);
-    font-family: myfont;
-    font-size: 5vh;
-    text-align:center;
+    color:rgb(0, 0, 0);
+    font-family: myfontbold;
+    font-size: 10vh;
+    text-align:left;
     font-weight: bold;
+    margin:0px;
+    padding:0px;
+    line-height:1;
+}
+
+.titles{
+    margin-top:20vh;
+    font-size:15.5vw;
+    
 }
 
 #meinbild{
@@ -12,20 +21,38 @@ p{
     width:50vw;
 }
 
-.container{
+.überschrift{
     display:flex;
     align-items:flex-end;
     
 }
+.bilder{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
 
-body{background-color: blanchedalmond;}
+.bilder img{
+    height: 21vh;
+    width:auto;
+    display: block;
+    margin-top:10vh;
+}
+
+.graphicdesignbilder{
+
+}
+
+
+
 
 @font-face {
-    font-family: myfont;
-    src: url(./fonts/GravitasOne-Regular.ttf);
+    font-family:myfontbold;
+    src: url(./fonts/Anton-Regular.ttf);
 }
 
 .button{
-    width:20vw;display:block;
+    width:20vw;
+    display:block;
     margin:auto;
 }
