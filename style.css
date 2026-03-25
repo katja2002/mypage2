@@ -11,9 +11,11 @@ p{
 
 .titles{
     margin-top:20vh;
-    font-size:15.5vw;
-    
+    font-size:11vw;
+    text-align:center;
 }
+
+
 
 #meinbild{
     display:block;
@@ -34,15 +36,21 @@ p{
 
 .bilder img{
     height: 21vh;
-    width:auto;
+    width: auto;
     display: block;
     margin-top:10vh;
 }
 
-.graphicdesignbilder{
-
+.graphicdesignbilder, .illustrationbilder{
+    display:flex;
+    justify-content:center;
+    gap:5vh;
 }
-
+.graphicdesignbilder img, .illustrationbilder img{
+    height: 50vh;
+    width: auto;
+    display: block;
+    margin-top:10vh;
 
 
 
