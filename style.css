@@ -1,13 +1,31 @@
 p{
     color:rgb(161, 18, 18);
+    font-family: myfont;
     font-size: 5vh;
     text-align:center;
     font-weight: bold;
 }
 
-#buchcover{
+#meinbild{
+    display:block;
+    margin-left:auto;
     width:50vw;
-    border:210px solid pink;
+}
+
+.container{
+    display:flex;
+    align-items:flex-end;
+    
 }
 
 body{background-color: blanchedalmond;}
+
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/GravitasOne-Regular.ttf);
+}
+
+.button{
+    width:20vw;display:block;
+    margin:auto;
+}
