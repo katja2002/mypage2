@@ -1,6 +1,6 @@
 p{
     color:rgb(0, 0, 0);
-    font-family: myfontbold;
+    font-family:anton;
     font-size: 10vh;
     text-align:left;
     font-weight: bold;
@@ -9,9 +9,16 @@ p{
     line-height:1;
 }
 
+h3{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:3vh;
+    font-weight: 1;
+    margin:0px;
+}
+
 .titles{
     margin-top:20vh;
-    font-size:11vw;
+    font-size:15vw;
     text-align:center;
 }
 
@@ -34,30 +41,56 @@ p{
     gap:10px;
 }
 
-.bilder img{
+.bilder img,.graphicdesignbilder img,.illustrationbilder img{
     height: 21vh;
     width: auto;
     display: block;
     margin-top:10vh;
+    transition: transform 0.3s ease;
 }
 
-.graphicdesignbilder, .illustrationbilder{
+.bilder img:hover,.graphicdesignbilder img:hover,.illustrationbilder img:hover,.animationvideos video:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+
+.graphicdesignbilder, .illustrationbilder,.animationvideos{
     display:flex;
     justify-content:center;
     gap:5vh;
 }
-.graphicdesignbilder img, .illustrationbilder img{
+.graphicdesignbilder img, .illustrationbilder img,.animationvideos video{
     height: 50vh;
     width: auto;
     display: block;
     margin-top:10vh;
 
+}
 
+.contactinformation{
+    display:flex;
+    justify-content:center;
+    gap:5vh;
+    margin-top:10vh;
+    align-items: center;
+    
+
+}
+
+h1{
+    font-family:anton;
+    font-size:10vw;
+}
 
 @font-face {
-    font-family:myfontbold;
-    src: url(./fonts/Anton-Regular.ttf);
+    font-family:anton;
+    src: url(./fonts/anton.ttf);
 }
+
+@font-face {
+    font-family:montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+    
 
 .button{
     width:20vw;

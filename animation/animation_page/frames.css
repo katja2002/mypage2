@@ -1,0 +1,62 @@
+
+body{
+    overflow: hidden;
+}
+
+#frame_container{
+
+
+    width:80vw;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    margin-left: 23vw;
+    margin-right:5vw;
+    margin-top:5vw;
+
+
+
+}
+#frame{
+    height:80vh;
+}
+h1{
+    font-family:anton;
+    font-size:6vh;
+    text-align:left;
+    margin:0;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:2vh;
+    font-weight: 1;
+}
+
+@font-face {
+    font-family:anton;
+    src: url(./fonts/anton.ttf);
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    height:60vh;
+}
+
+div{
+    display:flex;
+    gap:10px;
+    margin-top: 2vw;
+    margin-left:4vw;
+}
+
+.text{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:top;
+    margin-left:5vw;
+    margin-top:5vw;
+
+}
