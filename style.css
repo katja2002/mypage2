@@ -22,6 +22,12 @@ h3{
     text-align:center;
 }
 
+.titles1{
+    margin-top:25vh;
+    font-size:12vw;
+    text-align:center;
+}
+
 
 
 #meinbild{
@@ -41,7 +47,7 @@ h3{
     gap:10px;
 }
 
-.bilder img,.graphicdesignbilder img,.illustrationbilder img{
+.bilder img,.graphicdesignbilder img,.illustrationbilder img,.gifs img{
     height: 21vh;
     width: auto;
     display: block;
@@ -53,12 +59,12 @@ h3{
   transform: scale(1.1) translateY(-5px);
 }
 
-.graphicdesignbilder, .illustrationbilder,.animationvideos{
+.graphicdesignbilder, .illustrationbilder,.animationvideos,.gifs{
     display:flex;
     justify-content:center;
     gap:5vh;
 }
-.graphicdesignbilder img, .illustrationbilder img,.animationvideos video{
+.graphicdesignbilder img, .illustrationbilder img,.animationvideos video,.gifs img{
     height: 50vh;
     width: auto;
     display: block;
