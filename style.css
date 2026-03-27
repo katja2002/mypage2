@@ -71,6 +71,9 @@ h3{
     margin-top:10vh;
 
 }
+.gifs{
+    gap:7vw;
+}
 
 .contactinformation{
     display:flex;
